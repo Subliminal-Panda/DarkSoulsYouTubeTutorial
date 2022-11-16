@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: 95ecdda61c7d75947b0f17ab60996d50
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Cobblestone
+    2800000: Cobblestone - baseColor
+    2800002: Cobblestone - normal
+    2800004: Cobblestone - metallic
+    2800006: Cobblestone - height
+    2800008: Cobblestone - ambientOcclusion
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Cobblestone
+    prototypeName: Cobblestone
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Cobblestone\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: Cobblestone - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cobblestone - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cobblestone - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cobblestone - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cobblestone - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cobblestone - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []

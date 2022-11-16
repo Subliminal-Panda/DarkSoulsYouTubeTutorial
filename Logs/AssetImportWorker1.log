@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.22f1 (6b6e9fc2adda) revision 7040671'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 65335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60625
+Successfully changed project path to: C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
+C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 73.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8172 MB
+    Driver:   26.20.13002.133
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006566 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (585ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+				TypeCache.Initialize (103ms)
+					TypeCache.ScanAssembly (101ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\trist\Unity Projects\Dark Souls YouTube Tutorial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trist\Unity Projects\Dark Souls YouTube Tutorial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+				TypeCache.Initialize (248ms)
+					TypeCache.ScanAssembly (245ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3828 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (60.0 KB). Loaded Objects now: 4307.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 3.180400 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.291700 ms MarkObjects: 2.492000 ms  DeleteObjects: 0.079700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16015.732692 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Bl.mat
+  artifactKey: Guid(62aa59822a5c4646819d9484cc5867e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Bl.mat using Guid(62aa59822a5c4646819d9484cc5867e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a28f3074dc5cc54d71a9baf48d3f4') in 0.147094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat
+  artifactKey: Guid(467ac13a9a2373c4d8122ea97be955ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat using Guid(467ac13a9a2373c4d8122ea97be955ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa633b9fc93040e76e596cd075581992') in 0.026440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Rd.mat
+  artifactKey: Guid(255d3bf8d5c2400dbd57e19c9580f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Rd.mat using Guid(255d3bf8d5c2400dbd57e19c9580f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7de15f60a118af6253b19a84f020fc5') in 0.029182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.864671 seconds.
+  path: Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/Backdrop.mat
+  artifactKey: Guid(9d676205f61d6c44fb239b7cb342bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/Backdrop.mat using Guid(9d676205f61d6c44fb239b7cb342bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69aece69d83dcf2b4e4fee240c6b5cd') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.167112 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(6371ebafc9b7b9843b0588085660a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(6371ebafc9b7b9843b0588085660a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9daafdb02a82d1b5979fe1d6d4edcba') in 0.017914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.702598 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_N.tga
+  artifactKey: Guid(4896923d51f4464bbb2e2e830b1a3fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_N.tga using Guid(4896923d51f4464bbb2e2e830b1a3fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad1be2aa1b907eef1166a0fcf06a42b') in 0.035957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Shield_Newbie_01_N.tga
+  artifactKey: Guid(b208dd10a6b149f69fb614d7960cd0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Shield_Newbie_01_N.tga using Guid(b208dd10a6b149f69fb614d7960cd0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4226a94635db06b5f9f42d113c4808c9') in 0.015072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Staff_Newbie_01_Gn_D.tga
+  artifactKey: Guid(cfc5b39e6047456fb914f1301869feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Staff_Newbie_01_Gn_D.tga using Guid(cfc5b39e6047456fb914f1301869feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b137f0b8c16d6284fac0d4b80917a8f5') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Dagger_Newbie_01_Rd_D.tga
+  artifactKey: Guid(17834362c4494b5c9fc9fa49166274d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Dagger_Newbie_01_Rd_D.tga using Guid(17834362c4494b5c9fc9fa49166274d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2058898239cbf4bd02b430ce5d5ba7') in 0.018274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Sword_Newbie_01_Cl_D.tga
+  artifactKey: Guid(5f523ab2549b40c2b1c4b1352bf9ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Sword_Newbie_01_Cl_D.tga using Guid(5f523ab2549b40c2b1c4b1352bf9ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5c81f5e62dbb958376d9711d34a76') in 0.014718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Bow_Newbie_01_Gn_D.tga
+  artifactKey: Guid(68a4bce726ad4b7b8f6786282925177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Bow_Newbie_01_Gn_D.tga using Guid(68a4bce726ad4b7b8f6786282925177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6487cdb328ac4cca910f26afec8dde2f') in 0.012220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_Rd_D.tga
+  artifactKey: Guid(245c6139c05f49aca4a2e95e4a9e52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_Rd_D.tga using Guid(245c6139c05f49aca4a2e95e4a9e52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484dc8ba7651887af090d5ff5c617a12') in 0.015464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.367302 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Medieval_texture.tga
+  artifactKey: Guid(a328ef499f807304098fa10a639db73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Medieval_texture.tga using Guid(a328ef499f807304098fa10a639db73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9040b00a2ae2b318dad2931012f6fe') in 0.012198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Tree_Trunk_01.png
+  artifactKey: Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Tree_Trunk_01.png using Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc30e8f3d942ff93c5a1b0e1bc9c40') in 0.012693 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

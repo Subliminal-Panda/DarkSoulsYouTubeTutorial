@@ -54,8 +54,11 @@ namespace TM
 
         private void LateUpdate()
         {
+            // makes button press only register one time, then bool returns to false:
             inputHandler.rollFlag = false;
             inputHandler.sprintFlag = false;
+            inputHandler.rb_Input = false;
+            inputHandler.rt_Input = false;
             isSprinting = inputHandler.b_Input;
 
             if (isInAir)

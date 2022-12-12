@@ -36,22 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Windows\SelectionWindowAbstract.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Editors\NHItemEditor.cs" />
-     <Compile Include="Assets\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\StyleBuilder.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Extensions\NHItemExtension.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Extensions\MaterialMapperExtension.cs" />
-     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Scripts\Editor\PT_Create_Prefab_Editor.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Editors\NHAvatarEditor.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Extensions\InitializationHelper.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Editors\NHCharacterControllerEditor.cs" />
-     <Compile Include="Assets\Blink\Tools\SkinnedMeshTransfer\Editor\BlinkSkinnedMeshTransfer.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\GUIUtils.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\TabComponent.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Windows\SelectorWindow.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\Editors\NHCameraEditor.cs" />
-     <Compile Include="Assets\StylizedCharacter\Scripts\Editor\StyleStateBuilder.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Windows\SelectionWindowAbstract.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Editors\NHItemEditor.cs" />
+     <Compile Include="Assets\Imported\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\StyleBuilder.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Extensions\NHItemExtension.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Extensions\MaterialMapperExtension.cs" />
+     <Compile Include="Assets\Imported\Polytope Studio\Lowpoly Medieval Characters\Sources\Scripts\Editor\PT_Create_Prefab_Editor.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Editors\NHAvatarEditor.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Extensions\InitializationHelper.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Editors\NHCharacterControllerEditor.cs" />
+     <Compile Include="Assets\Imported\Blink\Tools\SkinnedMeshTransfer\Editor\BlinkSkinnedMeshTransfer.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\GUIUtils.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\TabComponent.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Windows\SelectorWindow.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\Editors\NHCameraEditor.cs" />
+     <Compile Include="Assets\Imported\StylizedCharacter\Scripts\Editor\StyleStateBuilder.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

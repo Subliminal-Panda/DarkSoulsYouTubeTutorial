@@ -87,12 +87,17 @@ namespace TM
 
         public void PlayTargetAnimation(string targetAnim, bool isInteracting)
         {
-            if(targetAnim != "RollForward" && targetAnim != "BackStep")
+            if(targetAnim != "RollForward")
             {
                 anim.SetBool("isInteracting", isInteracting);
                 anim.applyRootMotion = isInteracting;
             }
             anim.CrossFade(targetAnim, 0.2f);
+        }
+
+        public void CancelAnimation()
+        {
+            anim.enabled = false;
         }
 
         public void CanRotate()

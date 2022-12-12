@@ -15,7 +15,7 @@ C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60625
+55679
 Successfully changed project path to: C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
 C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/trist/Unity Projects/Dark Souls YouTube Tutorial
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 73.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
@@ -63,98 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006566 seconds.
+Registered in 0.011494 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.584 seconds
+- Completed reload, in  0.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (585ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (417ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
-				TypeCache.Initialize (103ms)
-					TypeCache.ScanAssembly (101ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (178ms)
+					TypeCache.ScanAssembly (176ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (75ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004453 seconds.
+Registered in 0.004838 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\trist\Unity Projects\Dark Souls YouTube Tutorial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trist\Unity Projects\Dark Souls YouTube Tutorial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.688 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1063ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1689ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1365ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
-				TypeCache.Initialize (248ms)
-					TypeCache.ScanAssembly (245ms)
+			SetupTypeCache (400ms)
+				TypeCache.Initialize (396ms)
+					TypeCache.ScanAssembly (387ms)
 				ResolveRequiredComponents (4ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (694ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3828 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (60.0 KB). Loaded Objects now: 4307.
+Unloading 3834 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (61.0 KB). Loaded Objects now: 4315.
 Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 3.180400 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.291700 ms MarkObjects: 2.492000 ms  DeleteObjects: 0.079700 ms)
+Total: 3.454600 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.297300 ms MarkObjects: 2.708100 ms  DeleteObjects: 0.117200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,88 +168,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16015.732692 seconds.
-  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Bl.mat
-  artifactKey: Guid(62aa59822a5c4646819d9484cc5867e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Bl.mat using Guid(62aa59822a5c4646819d9484cc5867e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a28f3074dc5cc54d71a9baf48d3f4') in 0.147094 seconds 
+  Time since last request: 346960.657495 seconds.
+  path: Assets/My Edited Animations
+  artifactKey: Guid(fe02c2cffeb5ec449aca900222cbe969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Edited Animations using Guid(fe02c2cffeb5ec449aca900222cbe969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279abb756a242eddd5d54a08db59b99') in 0.009371 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat
-  artifactKey: Guid(467ac13a9a2373c4d8122ea97be955ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat using Guid(467ac13a9a2373c4d8122ea97be955ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa633b9fc93040e76e596cd075581992') in 0.026440 seconds 
+  Time since last request: 51.141068 seconds.
+  path: Assets/Animations/Movement/RunBackwardLeft.fbx
+  artifactKey: Guid(de0b7914553f4c541a55e2b7f89a240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunBackwardLeft.fbx using Guid(de0b7914553f4c541a55e2b7f89a240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c609f49a26bfa470535e473490bf8a') in 0.059746 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Rd.mat
-  artifactKey: Guid(255d3bf8d5c2400dbd57e19c9580f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Axe_Newbie_Rd.mat using Guid(255d3bf8d5c2400dbd57e19c9580f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7de15f60a118af6253b19a84f020fc5') in 0.029182 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animations/Movement/RunBackwardRight.fbx
+  artifactKey: Guid(4d66907684f47e542ab56147b39501fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunBackwardRight.fbx using Guid(4d66907684f47e542ab56147b39501fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1f4957d187d490741ce48bc8e54998') in 0.020943 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.864671 seconds.
-  path: Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/Backdrop.mat
-  artifactKey: Guid(9d676205f61d6c44fb239b7cb342bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/Backdrop.mat using Guid(9d676205f61d6c44fb239b7cb342bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69aece69d83dcf2b4e4fee240c6b5cd') in 0.011414 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/Movement/RunRight.fbx
+  artifactKey: Guid(5120a970404f418419c83af871d9a022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunRight.fbx using Guid(5120a970404f418419c83af871d9a022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca3081f1cd53cb4cb579a62de9a150f') in 0.028991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.167112 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(6371ebafc9b7b9843b0588085660a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(6371ebafc9b7b9843b0588085660a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9daafdb02a82d1b5979fe1d6d4edcba') in 0.017914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.702598 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_N.tga
-  artifactKey: Guid(4896923d51f4464bbb2e2e830b1a3fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_N.tga using Guid(4896923d51f4464bbb2e2e830b1a3fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad1be2aa1b907eef1166a0fcf06a42b') in 0.035957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Shield_Newbie_01_N.tga
-  artifactKey: Guid(b208dd10a6b149f69fb614d7960cd0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Shield_Newbie_01_N.tga using Guid(b208dd10a6b149f69fb614d7960cd0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4226a94635db06b5f9f42d113c4808c9') in 0.015072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Staff_Newbie_01_Gn_D.tga
-  artifactKey: Guid(cfc5b39e6047456fb914f1301869feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Staff_Newbie_01_Gn_D.tga using Guid(cfc5b39e6047456fb914f1301869feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b137f0b8c16d6284fac0d4b80917a8f5') in 0.012303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Dagger_Newbie_01_Rd_D.tga
-  artifactKey: Guid(17834362c4494b5c9fc9fa49166274d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Dagger_Newbie_01_Rd_D.tga using Guid(17834362c4494b5c9fc9fa49166274d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2058898239cbf4bd02b430ce5d5ba7') in 0.018274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Sword_Newbie_01_Cl_D.tga
-  artifactKey: Guid(5f523ab2549b40c2b1c4b1352bf9ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Sword_Newbie_01_Cl_D.tga using Guid(5f523ab2549b40c2b1c4b1352bf9ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5c81f5e62dbb958376d9711d34a76') in 0.014718 seconds 
+  Time since last request: 43.022104 seconds.
+  path: Assets/Animations/Movement/RunBackwardLeft 1.fbx
+  artifactKey: Guid(70b9f914691ace64b90d0df2e5a89df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunBackwardLeft 1.fbx using Guid(70b9f914691ace64b90d0df2e5a89df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e99f9307e28e1c9718eeff929107f84') in 0.017207 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Bow_Newbie_01_Gn_D.tga
-  artifactKey: Guid(68a4bce726ad4b7b8f6786282925177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Bow_Newbie_01_Gn_D.tga using Guid(68a4bce726ad4b7b8f6786282925177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6487cdb328ac4cca910f26afec8dde2f') in 0.012220 seconds 
+  path: Assets/Animations/Movement/Sprint 1.fbx
+  artifactKey: Guid(da40c009841083c4ba68e366accc409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/Sprint 1.fbx using Guid(da40c009841083c4ba68e366accc409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1ec25e83237421331450aded6b8383') in 0.027265 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_Rd_D.tga
-  artifactKey: Guid(245c6139c05f49aca4a2e95e4a9e52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedCharacter/Textures/Item/Weapon/T_Axe_Newbie_01_Rd_D.tga using Guid(245c6139c05f49aca4a2e95e4a9e52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484dc8ba7651887af090d5ff5c617a12') in 0.015464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.367302 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Medieval_texture.tga
-  artifactKey: Guid(a328ef499f807304098fa10a639db73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Medieval_texture.tga using Guid(a328ef499f807304098fa10a639db73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9040b00a2ae2b318dad2931012f6fe') in 0.012198 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animations/Movement/RunBackwardRight 1.fbx
+  artifactKey: Guid(758ac200aba9d9247a326edcf47bbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunBackwardRight 1.fbx using Guid(758ac200aba9d9247a326edcf47bbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dc6469e22e78ba3355acb837bc6e01') in 0.024132 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Tree_Trunk_01.png
-  artifactKey: Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Tree_Trunk_01.png using Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc30e8f3d942ff93c5a1b0e1bc9c40') in 0.012693 seconds 
+  path: Assets/Animations/Movement/RunRight 1.fbx
+  artifactKey: Guid(8eac4e8e8bcdeea4489bab95f74d0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RunRight 1.fbx using Guid(8eac4e8e8bcdeea4489bab95f74d0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1929dadafd9fc6ab7b4ad79af97611b') in 0.018443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.287230 seconds.
+  path: Assets/Animations/Movement/RollForward 1.fbx
+  artifactKey: Guid(dfb1bbbcd9a5e004e99a12ef5dd29f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/RollForward 1.fbx using Guid(dfb1bbbcd9a5e004e99a12ef5dd29f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2056cfda6e6369afab54f1d4f8519269') in 0.017478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142493 seconds.
+  path: Assets/Animations/Movement/Jumps 1.fbx
+  artifactKey: Guid(121c1764cbe231846b8b16e5ba2a9953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Movement/Jumps 1.fbx using Guid(121c1764cbe231846b8b16e5ba2a9953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6437ce5da7de3ced4cf5071cafea43b8') in 0.020116 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

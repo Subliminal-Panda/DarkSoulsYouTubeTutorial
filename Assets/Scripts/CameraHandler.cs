@@ -17,16 +17,16 @@ namespace TM
 
         public static CameraHandler singleton;
 
-        public float lookSpeed = 0.1f;
-        public float followSpeed = 0.1f;
-        public float pivotSpeed = 0.03f;
+        public float lookSpeed = 0.2f;
+        public float followSpeed = 0.4f;
+        public float pivotSpeed = 0.1f;
 
         private float targetPosition;
         private float defaultPosition;
         private float lookAngle;
         private float pivotAngle;
-        public float minimumPivot = -35;
-        public float maximumPivot = 35;
+        public float minimumPivot = -50;
+        public float maximumPivot = 50;
 
         public float cameraSphereRadius = 0.2f;
         public float cameraCollisionOffset = 0.2f;

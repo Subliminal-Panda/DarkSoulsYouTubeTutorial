@@ -28,7 +28,7 @@ namespace TM
         float groundDirectionRayDistance = 0.2f;
         LayerMask ignoreForGroundCheck;
         public float inAirTimer;
-        public Vector3 wallCheck = new Vector3(0.2f, -1f, 0.2f);
+        public Vector3 wallCheck = new Vector3(0.2f, 0.2f, 0.2f);
 
         [Header("Movement Stats")]
         [SerializeField]
@@ -38,7 +38,7 @@ namespace TM
         [SerializeField]
         float rotationSpeed = 10;
         [SerializeField]
-        float fallingSpeed = 80;
+        float fallingSpeed = 4;
 
         void Start()
         {
@@ -84,20 +84,25 @@ namespace TM
 
         public void HandleMovement(float delta)
         {
-
-            if(playerManager.isInteracting)
+            // disallow movement during animations which should lock the player
+            if(playerManager.isInteracting || playerManager.isInAir)
                 return;
 
-            if(playerManager.isInAir)
-                return;
+            // find the camera's position on a horizontal plane, relative to player
+            Vector3 horizontalCamPosition = new Vector3(cameraObject.position.x, myTransform.position.y, cameraObject.position.z);
 
-            moveDirection = cameraObject.forward * inputHandler.vertical;
-            moveDirection += cameraObject.right * inputHandler.horizontal;
-            moveDirection.Normalize();
-            moveDirection.y = 0;
+            // find direction, horizontally, from cam to player
+            Vector3 horizontalDirection = (myTransform.position - horizontalCamPosition).normalized;
+
+            // determine forward/backward and left/right desired movement from input
+            Vector3 forwardMovement = horizontalDirection * inputHandler.vertical;
+            Vector3 horizontalMovement = cameraObject.right * inputHandler.horizontal;
+
+            // combine these values to get a horizontal movement direction
+            moveDirection = Vector3.ClampMagnitude(forwardMovement + horizontalMovement, 1);
 
             float speed = movementSpeed;
-            if (inputHandler.sprintFlag)
+            if (inputHandler.sprintFlag && inputHandler.moveAmount > 0.5)
             {
                 speed = sprintSpeed;
                 playerManager.isSprinting = true;
@@ -105,7 +110,16 @@ namespace TM
             }
             else
             {
-                moveDirection *= speed;
+                if (inputHandler.moveAmount < 0.5)
+                {
+                    moveDirection *= movementSpeed;
+                    playerManager.isSprinting = false;
+                }
+                else
+                {
+                    moveDirection *= speed;
+                    playerManager.isSprinting = false;
+                }
             }
 
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
@@ -199,12 +213,14 @@ namespace TM
                     }
                     else
                     {
-                        animatorHandler.PlayTargetAnimation("Locomotion", false);
-                        inAirTimer = 0;
+                        // todo: figure out why player floats to ground gently
+                        // something related to the falling -> land transition?
+                        animatorHandler.PlayTargetAnimation("Empty", true);
                     }
 
                     Debug.Log("You were in the air for: " + inAirTimer);
                     playerManager.isInAir = false;
+                    inAirTimer = 0;
                 }
             }
             else
